@@ -1,7 +1,7 @@
 
 python3 -m venv env
 source env/bin/activate
-python3 -m pip install langchain dotenv chromadb tiktoken
+python3 -m pip install langchain dotenv chromadb tiktoken pyboxen
 
 
 Note: run these if you see errors related to grpcio
@@ -9,3 +9,4 @@ pip3 install --upgrade pip
 python3 -m pip install --upgrade setuptools
 pip3 install --no-cache-dir  --force-reinstall -Iv grpcio==1.58.0
 python3 -m pip install chromadb
+python3 -m pip list -v
